@@ -82,8 +82,9 @@ if ($_REQUEST['act'] == '')
     // 在PC端的情况下过滤菜单
     $normal = array(
         '00_menu_dashboard' => '*',
-        '01_menu_system' => array('shop_authorized' => 1,'02_payment_list' => 1),
+        '01_menu_system' => array('01_shop_config'=>1, 'shop_authorized' => 1,'02_payment_list' => 1,'03_shipping_list'=>1),
         '02_menu_goods' => array('01_goods_list' => 1, '06_goods_brand_list' => 1),
+        '03_menu_order' => array('02_order_list' => 1,'03_order_query'=> 1,'09_delivery_order' => 1, '10_back_order' => 1),
         '06_menu_promotion' => array('08_group_buy' => 1, '12_favourable' => 1),
         '10_menu_tools' => array('01_navigator' => 1, '02_authorization' => 1, '99_upgrade' => 1),
         '11_menu_rec' => '*',

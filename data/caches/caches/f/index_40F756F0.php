@@ -1,10 +1,10 @@
-<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:56:"/data1/www/htdocs/351/promise/1/themes/default/index.dwt";i:1;s:68:"/data1/www/htdocs/351/promise/1/themes/default/library/cat_goods.lbi";i:2;s:74:"/data1/www/htdocs/351/promise/1/themes/default/library/page_index_menu.lbi";i:3;s:71:"/data1/www/htdocs/351/promise/1/themes/default/library/search_index.lbi";i:4;s:70:"/data1/www/htdocs/351/promise/1/themes/default/library/page_footer.lbi";}s:7:"expires";i:1499569166;s:8:"maketime";i:1499565566;}<!DOCTYPE html>
+<?php exit;?>a:3:{s:8:"template";a:5:{i:0;s:60:"D:/PHPStudy/PHPTutorial/WWW/Ectouch/themes/default/index.dwt";i:1;s:72:"D:/PHPStudy/PHPTutorial/WWW/Ectouch/themes/default/library/cat_goods.lbi";i:2;s:78:"D:/PHPStudy/PHPTutorial/WWW/Ectouch/themes/default/library/page_index_menu.lbi";i:3;s:75:"D:/PHPStudy/PHPTutorial/WWW/Ectouch/themes/default/library/search_index.lbi";i:4;s:74:"D:/PHPStudy/PHPTutorial/WWW/Ectouch/themes/default/library/page_footer.lbi";}s:7:"expires";i:1542529075;s:8:"maketime";i:1542525475;}<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta name="Generator" content="ECTouch 2.2.30" />
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>ECTouch微商城</title>
+<title>小店啦</title>
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/swiper/css/swiper.min.css"/>
 <link rel="stylesheet" href="__PUBLIC__/bootstrap/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="__TPL__/css/index.css"/>
@@ -26,7 +26,7 @@
 	</div>
 </div>
 <header class="index-header comWidth">
-  <i class="index-header-menu iconfont fl" onclick="window.location = '/index.php?m=default&c=category&a=top_all&u=0'">&#xe627;</i>
+  <i class="index-header-menu iconfont fl" onclick="window.location = '/ectouch/index.php?m=default&c=category&a=top_all&u=0'">&#xe627;</i>
   <div class="index-search-box fl">
     <input type="text" class="index-search-input" placeholder="商品搜索" onclick="openSearch();">
     <a href="javascript:void(0)" id="translateVoice" style="display:None;"><i class="index-search-sound iconfont fr">&#xe623;</i></a>
@@ -95,11 +95,11 @@
 </div>
 <footer class="index-footer comWidth">
 	<ul>
-	<li class="fl index-footer-list"><a href="/index.php?m=default&c=index&a=index&u=0"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
-	<li class="fl index-footer-list"><a href="/index.php?m=default&c=category&a=top_all&u=0"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
+	<li class="fl index-footer-list"><a href="/ectouch/index.php?m=default&c=index&a=index&u=0"><i class="iconfont">&#xe621;</i><span>首页</span></a></li>
+	<li class="fl index-footer-list"><a href="/ectouch/index.php?m=default&c=category&a=top_all&u=0"><i class="iconfont">&#xe627;</i><span>分类</span></a></li>
 	<li class="fl index-footer-list"><a href="javascript:openSearch();"><i class="iconfont">&#xe617;</i><span>搜索</span></a></li>
-	<li class="fl index-footer-list"><a href="/index.php?m=default&c=flow&a=cart&u=0"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
-		<li class="fl index-footer-list"><a href="/index.php?m=default&c=user&a=index&u=0"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
+	<li class="fl index-footer-list"><a href="/ectouch/index.php?m=default&c=flow&a=cart&u=0"><i class="iconfont">&#xe626;</i><span>购物车</span></a></li>
+		<li class="fl index-footer-list"><a href="/ectouch/index.php?m=default&c=user&a=index&u=0"><i class="iconfont">&#xe625;</i><span>用户中心</span></a></li>
 		
 </ul></footer>
 </div>
@@ -108,7 +108,7 @@
 		<header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" class="herder-close" onClick="closeSearch();">×</a></header>
 	</div>
 	<div class="ect-padding-lr">
-		<form action="/index.php?m=default&c=category&a=index&u=0"  method="post" id="searchForm" name="searchForm">
+		<form action="/ectouch/index.php?m=default&c=category&a=index&u=0"  method="post" id="searchForm" name="searchForm">
 		<div class="input-search"> <span>
 			<input name="keywords" type="search" placeholder="请输入搜索关键词！" autofocus="autofocus" id="keywordBox">
 			</span>
@@ -130,18 +130,18 @@
 	opacity: 0.6;
 }
 </style>
-<script type="text/javascript" src="/data/assets/js/jquery.min.js" ></script> 
-<script type="text/javascript" src="/data/assets/js/jquery.json.js" ></script> 
-<script type="text/javascript" src="/data/assets/js/common.js"></script> 
-<script type="text/javascript" src="/data/assets/js/jquery.more.js"></script> 
-<script type="text/javascript" src="/data/assets/js/utils.js" ></script> 
-<script src="/data/assets/swiper/js/jquery.swiper.min.js"></script> 
-<script src="/themes/default/js/ectouch.js"></script> 
-<script src="/themes/default/js/simple-inheritance.min.js"></script> 
-<script src="/themes/default/js/code-photoswipe-1.0.11.min.js"></script> 
-<script src="/data/assets/bootstrap/js/bootstrap.min.js"></script> 
-<script src="/themes/default/js/jquery.scrollUp.min.js"></script> 
-<script type="text/javascript" src="/data/assets/js/validform.js" ></script>
+<script type="text/javascript" src="/Ectouch/data/assets/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="/Ectouch/data/assets/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="/Ectouch/data/assets/js/common.js"></script> 
+<script type="text/javascript" src="/Ectouch/data/assets/js/jquery.more.js"></script> 
+<script type="text/javascript" src="/Ectouch/data/assets/js/utils.js" ></script> 
+<script src="/Ectouch/data/assets/swiper/js/jquery.swiper.min.js"></script> 
+<script src="/Ectouch/themes/default/js/ectouch.js"></script> 
+<script src="/Ectouch/themes/default/js/simple-inheritance.min.js"></script> 
+<script src="/Ectouch/themes/default/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="/Ectouch/data/assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="/Ectouch/themes/default/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="/Ectouch/data/assets/js/validform.js" ></script>
 <script language="javascript">
 	/*banner滚动图片*/
 	var swiper = new Swiper('.swiper-container', {
@@ -165,7 +165,7 @@
 	}
 </script>
 <script type="text/javascript">
-get_asynclist("/index.php?m=default&c=index&a=ajax_goods&type=best&u=0" , '__TPL__/images/loader.gif');
+get_asynclist("/ectouch/index.php?m=default&c=index&a=ajax_goods&type=best&u=0" , '__TPL__/images/loader.gif');
 </script>
 <script>
 	/*立即关注*/
